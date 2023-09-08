@@ -1,4 +1,4 @@
-# docstore_module.py
+
 from langchain.docstore.document import Document
 
 def document_splitter(tables):

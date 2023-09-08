@@ -6,7 +6,7 @@ instruction = """
 For the given question, determine the keywords for determining what tables and columns should be used to write a SQL query to answer the question.
 """
 
-openai_api_key='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'
+openai_api_key=''
 def extract_entities(db, question,docs):
     extract_prompt = """
     Question: What are the top articles today?

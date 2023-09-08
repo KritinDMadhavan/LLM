@@ -10,7 +10,7 @@ from langchain.vectorstores import Chroma
 # Split documents
 docs = document_splitter(tables)
 
-openai_api_key = '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'
+openai_api_key = ''
 embeddings = OpenAIEmbeddings(openai_api_key=openai_api_key)
 # Set up Chroma database
 db = Chroma.from_documents(
